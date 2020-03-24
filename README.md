@@ -1,5 +1,6 @@
 # Grupa4-Eschedule
 Tema: Optimizacija rasporeda
+
 Članovi tima: Taida Kadrić, Nejra Sadžak, Faruk Smajlović
 
 Opis teme
