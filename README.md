@@ -4,6 +4,7 @@ Tema: Optimizacija rasporeda
 Članovi tima: Taida Kadrić, Nejra Sadžak, Faruk Smajlović
 
 Opis teme
+
 Pri pokretanju aplikacije korisniku će se otvoriti login prozor, tj. bit će zatraženo unošenje korisničkog imena i lozinke. Ukoliko korisnik bude prepoznat kao student bit će mu ponuđeno generisanje rasporeda za predstojeći semestar, te potom izmjena i prihvatanje rasporeda. U slučaju da se loguje student koji je prethodno generisao i prihvatio raspored, neće mu biti ponuđeno ponovno generisanje, već će biti ispisan onaj raspored koji je student potvrdio.
 
 Ukoliko se osoba koja koristi aplikaciju prijavi kao profesor, bit će u mogućnosti da odredi termine vježbi za svoj predmet vodeći računa o dostupnosti sala kao i o tome da se vježbe ne održavaju u terminima od 9.00 do 12.00 s obzirom na to da se u to vrijeme održavaju predavanja.
