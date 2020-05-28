@@ -49,6 +49,7 @@
     <Reference Include="System" />
     <Reference Include="System.Data" />
     <Reference Include="System.Drawing" />
+    <Reference Include="System.Web.DataVisualization" />
     <Reference Include="System.Web.DynamicData" />
     <Reference Include="System.Web.Entity" />
     <Reference Include="System.Web.ApplicationServices" />
@@ -162,6 +163,13 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Administrator\AdministratorForm.aspx.cs">
+      <DependentUpon>AdministratorForm.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Administrator\AdministratorForm.aspx.designer.cs">
+      <DependentUpon>AdministratorForm.aspx</DependentUpon>
+    </Compile>
     <Compile Include="App_Start\BundleConfig.cs" />
     <Compile Include="App_Start\FilterConfig.cs" />
     <Compile Include="App_Start\IdentityConfig.cs" />
@@ -173,6 +181,20 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
+    <Compile Include="LecturesFormProf.aspx.cs">
+      <DependentUpon>LecturesFormProf.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="LecturesFormProf.aspx.designer.cs">
+      <DependentUpon>LecturesFormProf.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ProfessorForm1.aspx.cs">
+      <DependentUpon>ProfessorForm1.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ProfessorForm1.aspx.designer.cs">
+      <DependentUpon>ProfessorForm1.aspx</DependentUpon>
+    </Compile>
     <Compile Include="LoginForm.aspx.cs">
       <DependentUpon>LoginForm.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -183,26 +205,60 @@
     <Compile Include="Models\AccountViewModels.cs" />
     <Compile Include="Models\IdentityModels.cs" />
     <Compile Include="Models\ManageViewModels.cs" />
+    <Compile Include="ProfessorForm.aspx.cs">
+      <DependentUpon>ProfessorForm.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ProfessorForm.aspx.designer.cs">
+      <DependentUpon>ProfessorForm.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Startup.cs" />
+    <Compile Include="TutorialsForm.aspx.cs">
+      <DependentUpon>TutorialsForm.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="TutorialsForm.aspx.designer.cs">
+      <DependentUpon>TutorialsForm.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="TutorialsFormProf.aspx.cs">
+      <DependentUpon>TutorialsFormProf.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="TutorialsFormProf.aspx.designer.cs">
+      <DependentUpon>TutorialsFormProf.aspx</DependentUpon>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Administrator\AdministratorForm.aspx" />
+    <Content Include="Administrator\AdminStyles.css" />
     <Content Include="Content\bootstrap-theme.css" />
     <Content Include="Content\bootstrap-theme.min.css" />
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
     <Content Include="favicon.ico" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
+    <Content Include="Images\1761201.jpg" />
     <Content Include="Images\background.jpg" />
+    <Content Include="Images\background2.jpg" />
+    <Content Include="Images\backgroundMain.jpeg" />
+    <Content Include="Images\download.jpg" />
+    <Content Include="Images\lecturesBtn.jpg" />
+    <Content Include="Images\tutorialsBtn.jpg" />
     <Content Include="Images\user.png" />
     <Content Include="Global.asax" />
     <Content Include="Content\Site.css" />
-    <Content Include="Images\backgroundweb.jpeg" />
-    <Content Include="Images\eScheduleLogo.jpg" />
-    <Content Include="Images\pozadina.jpg" />
+    <Content Include="LecturesFormProf.aspx" />
+    <Content Include="ProfessorForm1.aspx">
+      <BrowseToURL>~/ProfessorForm1.aspx</BrowseToURL>
+    </Content>
+    <Content Include="ProfessorForm1.css" />
     <Content Include="LoginForm.aspx" />
+    <Content Include="ProfessorForm.aspx" />
+    <Content Include="professorStyle1.css" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
+    <Content Include="libman.json" />
     <None Include="Scripts\jquery-3.4.1.intellisense.js" />
     <Content Include="Scripts\jquery-3.4.1.js" />
     <Content Include="Scripts\jquery-3.4.1.min.js" />
@@ -215,6 +271,9 @@
     <Content Include="Scripts\jquery.validate.unobtrusive.min.js" />
     <Content Include="Scripts\modernizr-2.8.3.js" />
     <Content Include="style.css" />
+    <Content Include="TutorialsForm.aspx" />
+    <Content Include="TutorialsFormProf.aspx" />
+    <Content Include="TutorialsStyleProf.css" />
     <Content Include="Web.config" />
     <Content Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>

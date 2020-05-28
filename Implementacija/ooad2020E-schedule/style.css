@@ -33,7 +33,22 @@ h2 {
     text-align: center;
     color: rgb(255, 217, 9);
 }
-.lblemail, .lblpass {
+
+div.title {
+    font-family: Georgia;
+    font-size: 30px;
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 350px;
+    height: 420px;
+    padding: 80px 40px;
+    cursor: default;
+}
+
+
+.lblusername, .lblpass {
     font-weight:bold;
     color:#fff;
 
@@ -44,14 +59,15 @@ h2 {
     margin-bottom:20px;
 }
 
-.txtemail, .txtpass {
-    border:none;
-    border-bottom:1px solid #fff;
-    outline:none;
-    height:40px;
-    color:#fff;
-    font-size:16px;
-    background-color:transparent;
+.txtusername, .txtpass {
+    border: none;
+    border-bottom: 1px solid #fff;
+    outline: none;
+    height: 40px;
+    color: #fff;
+    font-size: 16px;
+    background-color: transparent;
+    cursor: pointer;
 }
 
 .placeholder {
@@ -83,4 +99,17 @@ h2 {
 
 .bntForget:hover{
     text-decoration:underline;
+}
+
+body, html {
+    background: url('Images/background.jpg') no-repeat top left fixed #f0e9d6;
+    background-size:cover;
+    color: #FFFFFF;
+    margin: 0;
+    padding: 0;
+}
+
+.lblincorrect {
+    font-weight: bold;
+    color: #fff;
 }

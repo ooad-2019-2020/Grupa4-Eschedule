@@ -11,70 +11,88 @@ namespace ooad2020E_schedule
 {
 
 
-    public partial class LoginForm
+    public partial class TutorialsFormProf
     {
 
         /// <summary>
-        /// userameLabel control.
+        /// form1 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label userameLabel;
+        protected global::System.Web.UI.HtmlControls.HtmlForm form1;
 
         /// <summary>
-        /// userameTextBox control.
+        /// selectCourseLabel control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox userameTextBox;
+        protected global::System.Web.UI.WebControls.Label selectCourseLabel;
 
         /// <summary>
-        /// passwordLabel control.
+        /// selectCourseListView control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label passwordLabel;
+        protected global::System.Web.UI.WebControls.DropDownList selectCourseListView;
 
         /// <summary>
-        /// passwordTextBox control.
+        /// selectNumberLabel control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox passwordTextBox;
+        protected global::System.Web.UI.WebControls.Label selectNumberLabel;
 
         /// <summary>
-        /// signInBtn control.
+        /// saveNumberBtn control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button signInBtn;
+        protected global::System.Web.UI.WebControls.Button saveNumberBtn;
 
         /// <summary>
-        /// forgetLinkBtn control.
+        /// dayLabel control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.LinkButton forgetLinkBtn;
+        protected global::System.Web.UI.WebControls.Label dayLabel;
 
         /// <summary>
-        /// incorrectLabel control.
+        /// timeLabel control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label incorrectLabel;
+        protected global::System.Web.UI.WebControls.Label timeLabel;
+
+        /// <summary>
+        /// Label1 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label Label1;
+
+        /// <summary>
+        /// RadioButtonListDays control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.RadioButtonList RadioButtonListDays;
     }
 }
