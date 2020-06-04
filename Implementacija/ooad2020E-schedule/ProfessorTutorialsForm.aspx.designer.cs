@@ -11,7 +11,7 @@ namespace ooad2020E_schedule
 {
 
 
-    public partial class TutorialsFormProf
+    public partial class ProfessorTutorialsForm
     {
 
         /// <summary>
@@ -42,15 +42,6 @@ namespace ooad2020E_schedule
         protected global::System.Web.UI.WebControls.DropDownList selectCourseListView;
 
         /// <summary>
-        /// profilePicture control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Image profilePicture;
-
-        /// <summary>
         /// selectNumberLabel control.
         /// </summary>
         /// <remarks>
@@ -58,15 +49,6 @@ namespace ooad2020E_schedule
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Label selectNumberLabel;
-
-        /// <summary>
-        /// textBoxNumber control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox textBoxNumber;
 
         /// <summary>
         /// saveNumberBtn control.
@@ -96,13 +78,13 @@ namespace ooad2020E_schedule
         protected global::System.Web.UI.WebControls.Label timeLabel;
 
         /// <summary>
-        /// classroomLabel control.
+        /// Label1 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label classroomLabel;
+        protected global::System.Web.UI.WebControls.Label Label1;
 
         /// <summary>
         /// RadioButtonListDays control.
@@ -112,41 +94,5 @@ namespace ooad2020E_schedule
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.RadioButtonList RadioButtonListDays;
-
-        /// <summary>
-        /// RadioButtonListTimes control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.RadioButtonList RadioButtonListTimes;
-
-        /// <summary>
-        /// RadioButtonListClassrooms control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.RadioButtonList RadioButtonListClassrooms;
-
-        /// <summary>
-        /// numberOfFinishedLabel control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Label numberOfFinishedLabel;
-
-        /// <summary>
-        /// btnNext control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Button btnNext;
     }
 }

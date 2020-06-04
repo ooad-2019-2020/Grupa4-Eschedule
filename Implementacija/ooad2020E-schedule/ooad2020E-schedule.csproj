@@ -188,6 +188,7 @@
     <Compile Include="LecturesFormProf.aspx.designer.cs">
       <DependentUpon>LecturesFormProf.aspx</DependentUpon>
     </Compile>
+    <Compile Include="Modeli\finishedCounter.cs" />
     <Compile Include="ProfessorForm1.aspx.cs">
       <DependentUpon>ProfessorForm1.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -211,6 +212,13 @@
     </Compile>
     <Compile Include="ProfessorForm.aspx.designer.cs">
       <DependentUpon>ProfessorForm.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ProfessorResultsForm.aspx.cs">
+      <DependentUpon>ProfessorResultsForm.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ProfessorResultsForm.aspx.designer.cs">
+      <DependentUpon>ProfessorResultsForm.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Startup.cs" />
@@ -244,6 +252,7 @@
     <Content Include="Images\backgroundMain.jpeg" />
     <Content Include="Images\download.jpg" />
     <Content Include="Images\lecturesBtn.jpg" />
+    <Content Include="Images\profilePicture.png" />
     <Content Include="Images\tutorialsBtn.jpg" />
     <Content Include="Images\user.png" />
     <Content Include="Global.asax" />
@@ -255,6 +264,7 @@
     <Content Include="ProfessorForm1.css" />
     <Content Include="LoginForm.aspx" />
     <Content Include="ProfessorForm.aspx" />
+    <Content Include="ProfessorResultsForm.aspx" />
     <Content Include="professorStyle1.css" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
